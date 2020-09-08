@@ -1,10 +1,10 @@
-conda create -n py36 python=3.6 <br />
-activate py36 <br />
-conda config --add channels conda-forge <br />
-conda install numpy <br />
-conda install scipy <br />
-pip install Click <br />
-pip install Pillow <br />
-conda install dlib <br />
-pip install face_recognition_models <br />
-pip install --no-dependencies face_recognition <br />
+conda create -n py36 python=3.6 
+activate py36 
+conda config --add channels conda-forge 
+conda install numpy 
+conda install scipy 
+pip install Click 
+pip install Pillow 
+conda install dlib 
+pip install face_recognition_models 
+pip install --no-dependencies face_recognition 
